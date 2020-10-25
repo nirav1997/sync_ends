@@ -27,7 +27,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     keywords=["python"],
     url="https://github.com/jaymodi98/csc510-project",
-    download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url = 'https://github.com/nirav1997/sync_ends/archive/1.0.0.tar.gz',
     packages=setuptools.find_packages(),
     packages_dir={"": "src"},
     classifiers=[
