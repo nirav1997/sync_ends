@@ -38,4 +38,5 @@ setuptools.setup(
     install_requires=get_requirements("requirements.txt"),
     include_package_data=True,
     python_requires='>=3.6',
+    entry_points={"console_scripts": ["{}=sync_ends.main:main".format("sync-ends")]},
 )
